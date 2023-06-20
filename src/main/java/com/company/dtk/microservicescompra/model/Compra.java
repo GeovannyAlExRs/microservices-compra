@@ -14,7 +14,7 @@ public class Compra {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "userid", nullable = false)
+    @Column(name = "userId", nullable = false)
     private Long userId;
 
     @Column(name = "inmuebleId", nullable = false)
